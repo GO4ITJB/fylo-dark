@@ -10,12 +10,21 @@
 body{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
 }
 
 .header{
     background-color: hsl(217, 28%, 15%);
     padding: 2em 1em;
     font-size: 1em;
+    background-image: url(/images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-position-y: bottom;
     
 
     &__ul{
@@ -44,5 +53,74 @@ body{
         text-decoration: none;
         color: #fff;
     }
+
+    &__img{
+        padding: 3em 1em;
+        width: 100%;
+    }
 }
 
+main{
+    background-color: hsl(218, 28%, 13%);    
+}
+
+.hero{
+    text-align: center;
+
+    &__heading{
+        padding: 0 1em 1em;
+        font-size: 1.8em;
+        line-height: 1.7em;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    &__paragraph{
+        padding: 0 2em 1.5em;
+        font-size: 1.2em;
+        line-height: 1.6em;
+        
+    }
+}
+
+// ***********BUTTON***********
+.btn{
+    border-radius: 50px;
+    padding: 1em 5em;
+    border: none;
+    color: #fff;
+    background: linear-gradient(left,hsl(176, 68%, 64%), hsl(198, 60%, 50%) 80%);
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+// ***SERVICES***
+
+.services{
+    text-align: center;
+    padding-top: 5em;
+
+    &__box{
+        padding: 3em 2em 5em;
+    }
+
+    &__heading{
+        padding: 1.8em 0 1em;
+        font-size: 1.6em;
+    }
+
+    &__paragraph{
+        font-size: 1.2em;
+    }
+}
+
+// ***PRODUCTIVE***
+
+.productive{
+    padding: 2em;
+
+    &__img{
+        width: 100%;
+        text-align: center;
+    }
+
+}

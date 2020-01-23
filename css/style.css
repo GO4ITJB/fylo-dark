@@ -8,12 +8,21 @@
 body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
   background-color: #1c2431;
   padding: 2em 1em;
   font-size: 1em;
+  background-image: url(/images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position-y: bottom;
 }
 
 .header__ul {
@@ -47,5 +56,69 @@ body {
 .header__link {
   text-decoration: none;
   color: #fff;
+}
+
+.header__img {
+  padding: 3em 1em;
+  width: 100%;
+}
+
+main {
+  background-color: #181f2a;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__heading {
+  padding: 0 1em 1em;
+  font-size: 1.8em;
+  line-height: 1.7em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero__paragraph {
+  padding: 0 2em 1.5em;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 1em 5em;
+  border: none;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), color-stop(80%, #339ecc));
+  background: linear-gradient(left, #65e2d9, #339ecc 80%);
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.services {
+  text-align: center;
+  padding-top: 5em;
+}
+
+.services__box {
+  padding: 3em 2em 5em;
+}
+
+.services__heading {
+  padding: 1.8em 0 1em;
+  font-size: 1.6em;
+}
+
+.services__paragraph {
+  font-size: 1.2em;
+}
+
+.productive {
+  padding: 2em;
+}
+
+.productive__img {
+  width: 100%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
