@@ -3,28 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Features
-  Team
-  Sign In
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li class="header__li"><a 
+          href="#" class="header__link"><img src="images/logo.svg" alt="" class="header__logo"></a>
+        </li>
+        <li class="header__li"><a href="" class="header__link">Features</a>
+        </li>
+        <li class="header__li"><a href="" class="header__link">Team</a>
+        </li>
+        <li class="header__li"><a href="" class="header__link">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <img src="images/illustration-intro.png" alt="illustration-intro.png" class="hero__img">
+      <div class="hero__copyright">
+        <h1 class="hero__heading">All your files in one secure location, accessible anywhere.</h1>
+        <p class="hero__paragraph">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family and co-workers.</p>
+        <button class="btn btn--secondery">Get Started</button>
+      </div>
+    </section>
+  </main>
 
-  All your files in one secure location, accessible anywhere.
+  
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
-
-  Get Started
+  
+  
 
   Access your files, anywhere
 
