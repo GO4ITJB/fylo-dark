@@ -123,4 +123,30 @@ main{
         text-align: center;
     }
 
+    &__heading{
+        font-size: 1.3em;
+        padding-top: 2em;
+    }
+
+    &__paragraph{
+        font-size: 1.2em;
+        padding: 1em 0;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: hsl(176, 68%, 64%);
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid hsl(176, 68%, 64%);
+        line-height: 2em;
+        width: 55%;
+        font-size: 1.2em;
+    }
+
+    &__link-icon{
+        padding-left: 5px;
+        width: 12%;
+    }
+
 }
