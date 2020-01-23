@@ -139,13 +139,9 @@ main{
         display: flex;
         align-items: center;
         border-bottom: 2px solid hsl(176, 68%, 64%);
-            width: fit-content;
+        width: fit-content;
         line-height: 2em;
         font-size: 1.2em;
-
-        &--border{
-            
-        }
     }
 
     &__link-icon{
