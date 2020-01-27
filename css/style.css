@@ -154,8 +154,13 @@ main {
   width: 13%;
 }
 
+.testimonial {
+  padding: 5em 0 10em;
+}
+
 .testimonial__qoute-icon {
   width: 5%;
+  margin-left: 10%;
 }
 
 .testimonial__box {
@@ -163,12 +168,139 @@ main {
   width: 80%;
   height: auto;
   padding: 2em;
-  margin: 2em auto;
+  margin: 0 auto 2em;
   border-radius: 5px;
 }
 
 .testimonial__paragraph {
   padding: 0 0 1em;
   font-size: .9em;
+  line-height: 1.8em;
+}
+
+.testimonial__author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1em;
+}
+
+.testimonial__author-img {
+  border-radius: 50%;
+  width: 15%;
+  margin-right: 10px;
+}
+
+.testimonial__author-heading {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+.testimonial__author-paragraph {
+  color: #c6c6c6;
+  font-size: .8em;
+}
+
+.access {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #181f2a), color-stop(50%, #0b1523));
+  background: linear-gradient(#181f2a 50%, #0b1523 50%);
+}
+
+.access__card {
+  background-color: #1c2431;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.access__card-heading {
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+.access__card-paragraph {
+  padding: 2em 1em;
+}
+
+.access-form__input {
+  border-radius: 50px;
+  padding: 1em;
+  width: 90%;
+  border: none;
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1.5em;
+  color: #a2a2a2;
+}
+
+.btn--secondery {
+  width: 90%;
+  padding: 1em;
+}
+
+.footer {
+  padding: 2em 1em;
+  background-color: #0b1523;
+  font-size: 1.3em;
+}
+
+.footer__find-us {
+  padding: 1em;
+}
+
+.footer__find-us-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .8em 0;
+}
+
+.footer__icon {
+  background: url(../images/icon-location.svg) no-repeat;
+  display: block;
+  height: 25px;
+  width: 20px;
+  background-size: 20px 25px;
+  padding-right: 2.5em;
+}
+
+.footer__icon--location {
+  margin-top: 8px;
+}
+
+.footer__icon--phone {
+  background: url(../images/icon-phone.svg) no-repeat;
+  margin-top: 4px;
+}
+
+.footer__icon--email {
+  background: url(../images/icon-email.svg) no-repeat;
+  margin-top: 8px;
+}
+
+.footer__ul {
+  list-style: none;
+  padding: 1em;
+  line-height: 2em;
+}
+
+.footer__a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .attribution {
+  text-align: center;
+  padding-top: 4em;
+}
+
+.footer .attribution a {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

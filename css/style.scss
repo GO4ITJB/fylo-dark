@@ -153,11 +153,11 @@ main{
 // ***TESTIMONIAL***
 
 .testimonial{
-
+    padding: 5em 0 10em;
 
     &__qoute-icon{
         width: 5%;
-        
+        margin-left: 10%;
     }
 
     &__box{
@@ -165,13 +165,137 @@ main{
         width: 80%;
         height: auto;
         padding: 2em;
-        margin: 2em auto;
+        margin: 0 auto 2em;
         border-radius: 5px;
     }
 
     &__paragraph{
         padding: 0 0 1em;
         font-size: .9em;
+        line-height: 1.8em;
     }
 
+    &__author{
+        display: flex;
+        align-items: center;
+        padding-top: 1em;
+    }
+
+    &__author-img{
+        border-radius: 50%;
+        width: 15%;
+        margin-right: 10px;
+    }
+
+    &__author-heading{
+        font-size: 1.1em;
+        letter-spacing: 1px;
+    }
+
+    &__author-paragraph{
+        color: rgb(198, 198, 198);
+        font-size: .8em;
+    }
+
+}
+
+.access{
+    background: linear-gradient(hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
+}
+
+.access__card{
+    background-color: hsl(217, 28%, 15%);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+    border-radius: 5px;
+
+    &-heading{
+        font-size: 1.5em;
+        padding-top: 1em;
+    }
+
+    &-paragraph{
+        padding: 2em 1em;
+    }
+}
+.access-form{
+
+    &__input{
+    border-radius: 50px;
+    padding: 1em;
+    width: 90%;
+    border: none;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.5em;
+    color: rgb(162, 162, 162);
+    }
+}
+
+.btn--secondery{
+    width: 90%;
+    padding: 1em;
+}
+
+
+
+.footer{
+    padding: 2em 1em;
+    background-color: hsl(216, 53%, 9%);
+    font-size: 1.3em;
+
+    &__find-us{
+        padding: 1em;
+
+        &-box{
+        display: flex;
+        padding: .8em 0;
+    }
+    }
+
+    &__icon{
+        background: url(../images/icon-location.svg) no-repeat;
+        display: block;
+        height: 25px;
+        width: 20px;
+        background-size: 20px 25px;
+        padding-right: 2.5em;
+
+        &--location{
+            margin-top: 8px;
+        }
+        
+        &--phone{
+            background: url(../images/icon-phone.svg) no-repeat;
+            margin-top: 4px;
+        }
+
+        &--email{
+            background: url(../images/icon-email.svg) no-repeat;
+            margin-top: 8px;
+        }
+    }
+
+    &__ul{
+        list-style: none;
+        padding: 1em;
+        line-height: 2em;
+    }
+    
+    &__a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .attribution{
+        text-align: center;
+        padding-top: 4em;
+
+        a{
+            color: #fff;;
+        }
+    }
 }
