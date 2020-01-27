@@ -23,14 +23,17 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1em;
     background-image: url(../images/bg-curvy-mobile.svg);
     background-repeat: no-repeat;
-    background-size: 100% 20%;
+    background-size: 100vw 15vh;
     background-position-y: bottom;
     
 
     &__ul{
+        display: -webkit-box;
         display: flex;
-        justify-content: flex-end;
-        align-items: center;
+        -webkit-box-pack: end;
+                justify-content: flex-end;
+        -webkit-box-align: center;
+                align-items: center;
     }
 
     &__li{
@@ -88,6 +91,7 @@ main{
     padding: 1em 5em;
     border: none;
     color: #fff;
+    background: -webkit-gradient(linear,left top, right top,from(hsl(176, 68%, 64%)), color-stop(80%, hsl(198, 60%, 50%)));
     background: linear-gradient(left,hsl(176, 68%, 64%), hsl(198, 60%, 50%) 80%);
     font-size: 1.1em;
     font-family: 'Raleway', sans-serif;
@@ -136,9 +140,13 @@ main{
     &__link{
         text-decoration: none;
         color: hsl(176, 68%, 64%);
+        display: -webkit-box;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+                align-items: center;
         border-bottom: 2px solid hsl(176, 68%, 64%);
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         line-height: 2em;
         font-size: 1.1em;
@@ -176,8 +184,10 @@ main{
     }
 
     &__author{
+        display: -webkit-box;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+                align-items: center;
         padding-top: 1em;
     }
 
@@ -200,6 +210,7 @@ main{
 }
 
 .access{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, hsl(218, 28%, 13%)), color-stop(50%, hsl(216, 53%, 9%)));
     background: linear-gradient(hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
 }
 
@@ -251,6 +262,7 @@ main{
         padding: 1em;
 
         &-box{
+        display: -webkit-box;
         display: flex;
         padding: .8em 0;
     }
