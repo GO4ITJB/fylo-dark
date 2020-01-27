@@ -295,9 +295,18 @@ main {
   color: #fff;
 }
 
+.footer__social {
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.footer__social-icon {
+  width: 15%;
+}
+
 .footer .attribution {
   text-align: center;
-  padding-top: 4em;
+  padding-top: 2em;
 }
 
 .footer .attribution a {

@@ -290,9 +290,18 @@ main{
         color: #fff;
     }
 
+    &__social{
+        text-align: center;
+        padding: 3em 1em;
+
+        &-icon{
+            width: 15%;
+        }
+    }
+
     .attribution{
         text-align: center;
-        padding-top: 4em;
+        padding-top: 2em;
 
         a{
             color: #fff;;
