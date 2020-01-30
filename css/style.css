@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1c2431;
   padding: 2em 1em;
   font-size: 1em;
-  background-image: url(../images/bg-curvy-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: 100vw 15vh;
-  background-position-y: bottom;
 }
 
 .header__ul {
@@ -63,12 +59,24 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-main {
-  background-color: #181f2a;
-}
-
 .hero {
   text-align: center;
+  background-image: url(../images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom center;
+  width: 100%;
+  height: 48vh;
+  background-color: #1c2431;
+}
+
+.hero__img {
+  padding: 2em 1.5em 3em;
+  width: 100%;
+}
+
+.hero__copyright {
+  padding: 2em;
 }
 
 .hero__heading {
@@ -93,11 +101,13 @@ main {
   background: linear-gradient(left, #65e2d9, #339ecc 80%);
   font-size: 1.1em;
   font-family: 'Raleway', sans-serif;
+  width: 70%;
 }
 
 .services {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 35vh;
+  background-color: #181f2a;
 }
 
 .services__box {
@@ -115,6 +125,7 @@ main {
 
 .productive {
   padding: 2em;
+  background-color: #181f2a;
 }
 
 .productive__img {
@@ -134,28 +145,22 @@ main {
 
 .productive__link {
   text-decoration: none;
+  background-image: url(../images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 25px;
   color: #65e2d9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
-  border-bottom: 2px solid #65e2d9;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  line-height: 2em;
+  border-bottom: 1px solid #65e2d9;
   font-size: 1.1em;
 }
 
-.productive__link-icon {
-  padding-left: 5px;
-  width: 13%;
+.productive__link:hover {
+  font-size: 1.3em;
 }
 
 .testimonial {
   padding: 5em 0 10em;
+  background-color: #181f2a;
 }
 
 .testimonial__qoute-icon {
@@ -231,7 +236,7 @@ main {
 .access-form__input {
   border-radius: 50px;
   padding: 1em;
-  width: 90%;
+  width: 100%;
   border: none;
   font-size: 1.1em;
   font-family: 'Raleway', sans-serif;
@@ -240,28 +245,28 @@ main {
 }
 
 .btn--secondery {
-  width: 90%;
+  width: 100%;
   padding: 1em;
 }
 
 .footer {
-  padding: 2em 1em;
+  padding: 4em 1em 2em;
   background-color: #0b1523;
   font-size: 1.3em;
 }
 
-.footer__find-us {
+.footer .find-us {
   padding: 1em;
 }
 
-.footer__find-us-box {
+.footer .find-us__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: .8em 0;
 }
 
-.footer__icon {
+.footer .find-us__icon {
   background: url(../images/icon-location.svg) no-repeat;
   display: block;
   height: 25px;
@@ -270,16 +275,16 @@ main {
   padding-right: 2.5em;
 }
 
-.footer__icon--location {
+.footer .find-us__icon--location {
   margin-top: 8px;
 }
 
-.footer__icon--phone {
+.footer .find-us__icon--phone {
   background: url(../images/icon-phone.svg) no-repeat;
   margin-top: 4px;
 }
 
-.footer__icon--email {
+.footer .find-us__icon--email {
   background: url(../images/icon-email.svg) no-repeat;
   margin-top: 8px;
 }
@@ -311,5 +316,73 @@ main {
 
 .footer .attribution a {
   color: #fff;
+}
+
+@media (min-width: 1199px) {
+  body {
+    font-size: 20px;
+  }
+  .header {
+    padding: 2em 3em;
+  }
+  .header__logo {
+    width: 30%;
+  }
+  .header__li {
+    margin-left: 2.5em;
+  }
+  .hero {
+    background-image: url(../images/bg-curvy-desktop.svg);
+    height: 100%;
+  }
+  .hero__copyright {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+  }
+  .hero__heading {
+    font-size: 2.5em;
+  }
+  .hero__paragraph {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .hero__img {
+    width: 40%;
+  }
+  .btn {
+    width: 40%;
+  }
+  .services {
+    padding-top: 4em;
+  }
+  .services__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+  }
+  .services__box {
+    width: 30vw;
+  }
+  .productive {
+    padding: 8em 6em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .productive__img {
+    width: 50%;
+  }
+  .productive__heading {
+    font-size: 2.2em;
+    width: 45%;
+    letter-spacing: 3px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
