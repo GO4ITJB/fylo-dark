@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
 
 .header{
     background-color: hsl(217, 28%, 15%);
-    padding: 2em 1em;
+    padding: 2em 1.5em;
     font-size: 1em;
 
     &__ul{
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
 
     &__li{
         list-style: none;
-        margin-left: 1.1em;
+        margin-left: 1.5em;
     }
 
     &__li:first-child{
@@ -76,8 +76,6 @@ h1, h2, h3, h4, h5, h6{
         
     &__copyright{
         padding: 2em;
-        
-    
     }
 
     &__heading{
@@ -98,20 +96,20 @@ h1, h2, h3, h4, h5, h6{
 // ***********BUTTON***********
 .btn{
     border-radius: 50px;
-    padding: 1em 5em;
+    padding: 1em 6em;
     border: none;
     color: #fff;
     background: -webkit-gradient(linear,left top, right top,from(hsl(176, 68%, 64%)), color-stop(80%, hsl(198, 60%, 50%)));
     background: linear-gradient(left,hsl(176, 68%, 64%), hsl(198, 60%, 50%) 80%);
     font-size: 1.1em;
     font-family: 'Raleway', sans-serif;
-    width: 70%;
 }
 
 // ***SERVICES***
 
 .services{
     text-align: center;
+    padding-top: 4em;
     background-color: hsl(218, 28%, 13%);
 
     &__box{
@@ -140,7 +138,7 @@ h1, h2, h3, h4, h5, h6{
     }
 
     &__heading{
-        font-size: 1.3em;
+        font-size: 1.4em;
         padding-top: 2em;
     }
 
@@ -377,6 +375,10 @@ h1, h2, h3, h4, h5, h6{
 
     .btn{
         width: 40%;
+
+        &--secondery{
+            width: 30%;
+        }
     }
 
     .services{
@@ -437,9 +439,18 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .access{
-        
+
         &__card{
             width: 70%;
+        }
+
+        &__card-heading{
+            font-size: 2.5em;
+        }
+
+        &__card-paragraph{
+            width: 70%;
+            margin: 0 auto;
         }
     }
 
@@ -447,11 +458,23 @@ h1, h2, h3, h4, h5, h6{
         display: -webkit-box;
         display: flex;
         -webkit-box-pack: justify;
-                justify-content: space-between;
+        justify-content: space-between;
+        padding: 0 8em;
 
         &__input{
-            width: 60%;
-            
+            width: 65%;
+            margin-bottom: unset;
+            padding: 1.2em;
+        }
+    }
+
+    .footer{
+        
+        &__content{
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-pack: space-evenly;
+                    justify-content: space-evenly;
         }
     }
 }

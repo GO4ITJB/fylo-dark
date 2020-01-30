@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   background-color: #1c2431;
-  padding: 2em 1em;
+  padding: 2em 1.5em;
   font-size: 1em;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__li {
   list-style: none;
-  margin-left: 1.1em;
+  margin-left: 1.5em;
 }
 
 .header__li:first-child {
@@ -93,18 +93,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   border-radius: 50px;
-  padding: 1em 5em;
+  padding: 1em 6em;
   border: none;
   color: #fff;
   background: -webkit-gradient(linear, left top, right top, from(#65e2d9), color-stop(80%, #339ecc));
   background: linear-gradient(left, #65e2d9, #339ecc 80%);
   font-size: 1.1em;
   font-family: 'Raleway', sans-serif;
-  width: 70%;
 }
 
 .services {
   text-align: center;
+  padding-top: 4em;
   background-color: #181f2a;
 }
 
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .productive__heading {
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding-top: 2em;
 }
 
@@ -351,6 +351,9 @@ h1, h2, h3, h4, h5, h6 {
   .btn {
     width: 40%;
   }
+  .btn--secondery {
+    width: 30%;
+  }
   .services {
     padding-top: 4em;
   }
@@ -404,6 +407,13 @@ h1, h2, h3, h4, h5, h6 {
   .access__card {
     width: 70%;
   }
+  .access__card-heading {
+    font-size: 2.5em;
+  }
+  .access__card-paragraph {
+    width: 70%;
+    margin: 0 auto;
+  }
   .access-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -411,9 +421,20 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
         justify-content: space-between;
+    padding: 0 8em;
   }
   .access-form__input {
-    width: 60%;
+    width: 65%;
+    margin-bottom: unset;
+    padding: 1.2em;
+  }
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 /*# sourceMappingURL=style.css.map */
