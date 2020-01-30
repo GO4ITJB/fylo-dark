@@ -377,12 +377,45 @@ h1, h2, h3, h4, h5, h6 {
         align-items: center;
   }
   .productive__img {
-    width: 50%;
+    width: 60%;
   }
   .productive__heading {
     font-size: 2.2em;
     width: 45%;
     letter-spacing: 3px;
+  }
+  .testimonial {
+    font-size: 1.2em;
+  }
+  .testimonial__qoute-icon {
+    width: 3%;
+    position: relative;
+    left: 38px;
+    top: 25px;
+  }
+  .testimonial__boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .testimonial__box {
+    margin: 0 1.5em;
+  }
+  .access__card {
+    width: 70%;
+  }
+  .access-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .access-form__input {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=style.css.map */

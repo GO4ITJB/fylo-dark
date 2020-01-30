@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6{
         
 
         &__img{
-            width: 50%;
+            width: 60%;
         }
 
         &__heading{
@@ -412,8 +412,43 @@ h1, h2, h3, h4, h5, h6{
             width: 45%;
             letter-spacing: 3px;
         }
-
-        
     }
-    
+
+    .testimonial{
+        font-size: 1.2em;
+
+        &__qoute-icon{
+            width: 3%;
+            position: relative;
+            left: 38px;
+            top: 25px;
+        }
+
+        &__boxes{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        &__box{
+            margin: 0 1.5em;
+        }
+    }
+
+    .access{
+        
+        &__card{
+            width: 70%;
+        }
+    }
+
+    .access-form{
+        display: flex;
+        justify-content: space-between;
+
+        &__input{
+            width: 60%;
+            
+        }
+    }
 }
